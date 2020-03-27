@@ -1,4 +1,4 @@
-# get mice without any large intestine recorded but have large intestine subunits assessed for lacZ expression
+# This program retrieve mice without any large intestine recorded but have large intestine subunits assessed for lacZ expression
 
 library(RMySQL)
 
