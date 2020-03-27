@@ -13,7 +13,7 @@ for (name in colnames(data[, 2:8])) {
   ttest <- t.test(data$B6N, data[, name])
   
   #print p-values and wild-type and mutant means
-  df <- data.frame(row.names=count, wt=colnames(data)[1], mut=name, pvalue=ttest$p.value, wtmean=ttest$estimate[1], mutmean=ttest$estimate[2])
+  df <- data.frame(row.names=count, wt="B6N", mut=name, pvalue=ttest$p.value, wtmean=ttest$estimate[1], mutmean=ttest$estimate[2])
   print(df)
   
   count = count + 1
