@@ -1,4 +1,4 @@
-#t-test for determining whether the wild-type and mutant means are equal to each other
+#This program performs t-test to determine whether the wild-type and mutant means are equal to each other.
 
 library(ggplot2)
 rm(list = ls(all.names = TRUE)) # clears all environment variables to avoid leaking state to another script
