@@ -31,3 +31,11 @@ This program creates a regression plot of body weight versus weeks for each mous
 8.	weight_age_polynomial_regression.r:
 
 This program generates polynomial regression of body weight on mouse age (in weeks) for each late adult mouse. The regression plot shows the trend of body weight change of a mouse over the weeks during which the mouse is weighed. Most regression results are found to have high R-squared values at 0.9 or higher. A low R-squared value, such as 0.5 or lower, could imply record-keeping problems or some issues with the mouse's health. Also, any significant deviation in weight from the line or curve may suggest either an abrupt change in the health of the mouse or entry 1.errors caused by human or measuring mechanism factors.
+
+9. large_intestine_expression.R
+
+This program retrieve mice without any large intestine recorded but have large intestine subunits assessed for lacZ expression.
+
+10. t_test_acute_hargreaves.R
+
+This program performs t-test to determine whether the wild-type and mutant means are equal to each other.
